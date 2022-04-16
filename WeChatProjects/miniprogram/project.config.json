@@ -20,7 +20,7 @@
         "checkInvalidKey": true,
         "checkSiteMap": true,
         "uploadWithSourceMap": true,
-        "compileHotReLoad": false,
+        "compileHotReLoad": true,
         "lazyloadPlaceholderEnable": false,
         "useMultiFrameRuntime": true,
         "useApiHook": true,
@@ -44,7 +44,6 @@
     "compileType": "miniprogram",
     "libVersion": "2.23.4",
     "appid": "wx12a1c29ac9b91f23",
-    "cloudfunctionRoot": "cloudfunctions/",
     "projectname": "%E4%B8%AA%E4%BA%BA%E5%B0%8F%E7%A8%8B%E5%BA%8F",
     "debugOptions": {
         "hidedInDevtools": []
@@ -56,6 +55,7 @@
     },
     "isGameTourist": false,
     "cloudfunctionTemplateRoot": "cloudfunctionTemplate",
+    "cloudfunctionRoot": "../cloudfunctions/",
     "condition": {
         "search": {
             "list": []

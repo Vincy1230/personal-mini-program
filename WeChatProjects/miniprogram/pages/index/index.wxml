@@ -1,4 +1,19 @@
 <!--index.wxml-->
+<image mode="aspectFill" class="bg1" show-menu-by-longpress="true" src="cloud://vincent-1g9zebb7b63901b9.7669-vincent-1g9zebb7b63901b9-1258627717/program/bg1.jpg" />
+<text class="tittle">我的个人名片</text>
 <view class="container">
-  <button bindtap="add"> 此按钮共被点击了 {{feedings}} 次 </button>
+  <view class="info">
+    <image class="avatar" src="../../images/avatar.jpg"></image>
+    <text class="name">Vincent文朔</text>
+    <text>北京工商大学·人工智能212班</text>
+  </view>
+  <view class="buts">
+    <view class="feed" bindtap="feed" hover-class="feed-hover">
+      <image class="{{load}}" src="../../images/{{load}}.svg" />
+      <text>投喂 {{feedings}}</text>
+    </view>
+    <navigator class="about" url="../about/about">
+      <image src="../../images/about.svg" />
+    </navigator>
+  </view>
 </view>

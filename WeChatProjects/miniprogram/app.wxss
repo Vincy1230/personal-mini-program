@@ -1,10 +1,27 @@
 /**app.wxss**/
-.container {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  padding: 200rpx 0;
-  box-sizing: border-box;
-} 
+@font-face {
+    font-family: 'BAIQI';
+    src: url(https://7669-vincent-1g9zebb7b63901b9-1258627717.tcb.qcloud.la/program/baiqi.ttf?sign=25386904a9f2fe7a8834aa6baffaea4e&t=1650123480)
+}
+
+@keyframes rot {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    25% {
+        -webkit-transform: rotate(90deg);
+    }
+
+    50% {
+        -webkit-transform: rotate(180deg);
+    }
+
+    75% {
+        -webkit-transform: rotate(270deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}

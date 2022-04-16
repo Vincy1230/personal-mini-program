@@ -9,8 +9,12 @@ exports.main = async (event, context) => {
     return db.collection('default').doc('feeding-data').get().then(res => {
         newfeedings = res.data.feedings + 1
         db.collection('default').doc('feeding-data').update({
-            data: {feedings: newfeedings}
+            data: {
+                feedings: newfeedings
+            }
         })
-        return {feedings: newfeedings}
+        return {
+            feedings: newfeedings
+        }
     })
 }

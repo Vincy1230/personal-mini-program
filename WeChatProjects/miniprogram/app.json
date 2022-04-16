@@ -1,13 +1,16 @@
 {
     "pages": [
-        "pages/index/index"
+        "pages/index/index",
+        "pages/about/about"
     ],
     "window": {
+        "navigationStyle": "custom",
         "backgroundTextStyle": "light",
         "navigationBarBackgroundColor": "#fff",
-        "navigationBarTitleText": "Weixin",
+        "navigationBarTitleText": "Vincent文朔",
         "navigationBarTextStyle": "black"
     },
     "style": "v2",
+    "lazyCodeLoading": "requiredComponents",
     "sitemapLocation": "sitemap.json"
 }

@@ -1,0 +1,99 @@
+/* pages/about/about.wxss */
+.bg1 {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -10;
+}
+
+.back {
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    font-family: 'BAIQI';
+    margin: 56px 120px 0 24px;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 0 1px 3px white;
+}
+
+.back-hover {
+    opacity: .7;
+}
+
+.back>image {
+    display: block;
+    height: 24px;
+    width: 24px;
+    margin-right: 8px;
+}
+
+.container {
+    position: fixed;
+    top: 100px;
+    left: 16px;
+    right: 16px;
+    bottom: 24px;
+    padding: 16px;
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(255, 255, 255, 1);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, .5);
+    border-radius: 24px;
+    overflow-y: auto;
+}
+
+.container>text {
+    display: block;
+    margin-top: 4px;
+    margin-left: 12px;
+    font-family: 'BAIQI';
+}
+
+.container>text.h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    margin: 16px;
+}
+
+.container>text.h2 {
+    font-size: 20px;
+    font-style: italic;
+    margin: 16px 0 8px;
+    border-left: 4px solid rgba(255, 144, 180, 0.8);
+}
+
+.copy {
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    margin-top: 4px;
+    margin-left: 12px;
+}
+
+.copy>.key {
+    font-family: 'BAIQI';
+}
+
+.copy>.value {
+    font-family: 'BAIQI';
+    text-decoration: underline;
+    color: #FF90B4;
+}
+
+.copy>image {
+    display: block;
+    height: 1em;
+    width: 1em;
+}
+
+official-account {
+    display: block;
+    margin: 4px 12px;
+}

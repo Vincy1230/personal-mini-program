@@ -1,0 +1,47 @@
+<!--pages/about/about.wxml-->
+<image mode="aspectFill" class="bg1" show-menu-by-longpress="true" src="cloud://vincent-1g9zebb7b63901b9.7669-vincent-1g9zebb7b63901b9-1258627717/program/bg1.jpg" />
+<view class="back" bindtap="back" hover-class="back-hover">
+    <image src="../../images/back.svg" />
+    <text>返回首页</text>
+</view>
+<view class="container">
+    <text class="h1">关于本小程序</text>
+    <text class="h2">小程序详情</text>
+    <text>这是文朔的第一个正式上线的个人小程序~</text>
+    <text class="h2">作者信息</text>
+    <text>Vincent文朔（史胤隆）</text>
+    <text>北京工商大学 人工智能学院 学生</text>
+    <view class="copy">
+        <text class="key">博客：</text>
+        <text class="value" bindtap="copy1">blog.vincent1230.top</text>
+        <image bindtap="copy1" src="../../images/copy.svg" />
+    </view>
+    <view class="copy">
+        <text class="key">邮箱：</text>
+        <text class="value" bindtap="copy2">516879257@qq.com</text>
+        <image bindtap="copy2" src="../../images/copy.svg" />
+    </view>
+    <text class="h2">功能说明</text>
+    <text>小程序由「首页」和「关于页」两个页面组成，并在首页提供了「投喂」交互功能。</text>
+    <text>「投喂」功能是一个在所有终端共享的计数器，用户每次点击都会将计数器的值增加 1。每个用户的点击次数没有上限。</text>
+    <text class="h2">设计思路</text>
+    <text>本小程序的设计核心目的是通过最小的可发布实例验证微信云开发各个功能以及微信开放能力的使用。</text>
+    <text>当页面加载时，「投喂」功能需要自前端连接云开发文档型数据库并获取值，这里体现了小程序前端到数据库的连接。</text>
+    <text>当「投喂」功能被点击时，小程序前端向云函数发起调用，由云函数查询并修改数据库，同时将最新的值自云函数返回给小程序前端。（不能通过前端直接修改数据库，因为这样做存在多用户之间数据不同步的问题，这对于小程序鲁棒性而言是致命的）</text>
+    <text>由此，微信云开发中前端到数据库、前端到云函数、云函数到数据库的连接均已得到回环的验证。同时，页面背景和字体分别通过 File ID 和 HTTPS 对云存储功能进行了验证。我们得以实现对微信云开发各个功能的验证。</text>
+    <text class="h2">代码开源位置</text>
+    <view class="copy">
+        <text class="key">GitHub：</text>
+        <text class="value" bindtap="copy3">点此复制</text>
+        <image bindtap="copy3" src="../../images/copy.svg" />
+    </view>
+    <view class="copy">
+        <text class="key">Gitee：</text>
+        <text class="value" bindtap="copy4">点此复制</text>
+        <image bindtap="copy4" src="../../images/copy.svg" />
+    </view>
+    <text>提前对您的 star 表示感谢。</text>
+    <text class="h2">更多信息</text>
+    <text>欢迎您关注我的同名公众号「Vincent文朔」</text>
+    <official-account />
+</view>
