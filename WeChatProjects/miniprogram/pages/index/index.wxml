@@ -1,0 +1,4 @@
+<!--index.wxml-->
+<view class="container">
+  <button bindtap="add"> 此按钮共被点击了 {{feedings}} 次 </button>
+</view>
