@@ -2,13 +2,13 @@
 供个人学习调试的微信小程序项目，将会不断更新各种狠活。  
 | 发行版小程序码 | 体验版小程序码 |   备注   |
 | :-----------: | :-----------: | :------: |
-| ![发行版小程序码](https://images.gitee.com/uploads/images/2022/0417/195320_bccf85fa_8768241.jpeg) | ![体验版小程序码](https://images.gitee.com/uploads/images/2022/0417/195357_baef29b5_8768241.jpeg) | 使用体验版小程序需先向 [@Vincent文朔](https://gitee.com/Vincent1230) 获得使用许可。 |
+| ![发行版小程序码](./READMEimg/GAcode.jpg) | ![体验版小程序码](./READMEimg/BataQR.jpg) | 使用体验版小程序需先向 [@Vincent文朔](https://gitee.com/Vincent1230) 获得使用许可。 |
 
 ## 发行版 1.0.0
 这是我的第一个正式上线的个人小程序，设计核心目的是通过最小的可发布实例验证微信云开发各个功能以及微信开放能力的使用。  
 | 首页 (pages/index/index) | 关于页 (pages/about/about) | 分享到微信消息 (ShareAppMessage) |
 | :----: | :----: | :----: |
-| ![首页截图](https://images.gitee.com/uploads/images/2022/0417/200256_3f337bd7_8768241.jpeg) | ![关于页截图](https://images.gitee.com/uploads/images/2022/0417/200352_7f709890_8768241.jpeg) | ![消息分享截图](https://images.gitee.com/uploads/images/2022/0417/201409_596ba735_8768241.jpeg) |
+| ![首页截图](./READMEimg/1.0.0-1.jpg) | ![关于页截图](./READMEimg/1.0.0-2.jpg) | ![消息分享截图](./READMEimg/1.0.0-3.jpg) |
 
 ### 功能说明
 小程序由「首页」和「关于页」两个页面组成，并在首页提供了「投喂」交互功能。  
