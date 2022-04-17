@@ -6,9 +6,9 @@
 
 ## 发行版 1.0.0
 这是我的第一个正式上线的个人小程序，设计核心目的是通过最小的可发布实例验证微信云开发各个功能以及微信开放能力的使用。
-| 首页 (pages/index/index) | 关于页 (pages/about/about) | 分享到微信消息 (ShareAppMessage) | 分享到微信朋友圈 (ShareTimeline) |
-| :----: | :----: | :----: | :----: |
-| ![首页截图](https://images.gitee.com/uploads/images/2022/0417/200256_3f337bd7_8768241.jpeg) | ![关于页截图](https://images.gitee.com/uploads/images/2022/0417/200352_7f709890_8768241.jpeg) | ![消息分享截图](https://images.gitee.com/uploads/images/2022/0417/201409_596ba735_8768241.jpeg) | ![朋友圈截图](https://images.gitee.com/uploads/images/2022/0417/201438_f70accac_8768241.jpeg) |
+| 首页 (pages/index/index) | 关于页 (pages/about/about) | 分享到微信消息 (ShareAppMessage) |
+| :----: | :----: | :----: |
+| ![首页截图](https://images.gitee.com/uploads/images/2022/0417/200256_3f337bd7_8768241.jpeg) | ![关于页截图](https://images.gitee.com/uploads/images/2022/0417/200352_7f709890_8768241.jpeg) | ![消息分享截图](https://images.gitee.com/uploads/images/2022/0417/201409_596ba735_8768241.jpeg) |
 
 ### 功能说明
 小程序由「首页」和「关于页」两个页面组成，并在首页提供了「投喂」交互功能。  
